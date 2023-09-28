@@ -1,6 +1,8 @@
 # API Testing with JavaScript and Fetch
 
 This repository contains a simple JavaScript application for testing APIs using the Fetch API. With this application, you can make GET requests to APIs, including optional Bearer token-based authentication, and view the responses in a user-friendly format.
+<img width="886" alt="image" src="https://github.com/mrpavan/api-testing/assets/20220426/272aed82-cf4f-4102-8235-21c2002f095e">
+
 
 ## Features
 
