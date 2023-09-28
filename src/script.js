@@ -13,9 +13,11 @@ function onClick() {
     }
 
     var headers = new Headers({
-        "Authorization": authToken,
+        // "Authorization": authToken,
         // "Authorization": "Bearer " + authToken,
         "Content-Type": "application/json",
+        // "User-Agent": "curl/8.1.2"
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
     });
 
     fetch(apiUrl, { 
