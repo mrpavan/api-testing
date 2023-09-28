@@ -3,7 +3,7 @@
     "parcel-bundler": "^1.12.5"
   },
   "name": "api-testing",
-  "description": "",
+  "description": "Testing api's and identifying CORS issues",
   "version": "1.0.0",
   "main": "index.html",
   "devDependencies": {},
