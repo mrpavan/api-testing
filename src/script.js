@@ -23,10 +23,7 @@ function onClick() {
     headers.append("Authorization", authToken);
     }
 
-    fetch(apiUrl, { 
-        method: "GET",
-        headers: headers,
-    })
+    fetch(apiUrl, { headers: headers })
         .then((response) => response.json())
         .then((json) => {
             responseContainer.innerHTML = ""; // Clear previous content
